@@ -14,6 +14,9 @@ local_registry="http://34.88.239.191:4873/"
 # grep -q 'http address' <(tail -f $tmp_registry_log)
 # login so we can publish packages
 # sh -c "cd Packages/com.BigBro.URPPackageTemplate"
-sh -c "npm-auth-to-token -u qi -p 2445734397 -e Ze.Qi@outlook.com -r $local_registry"
+sh -c "npm login --registry $local_registry"
+sh -c "qi"
+sh -c "2445734397"
+sh -c "Ze.Qi@outlook.com"
 # Run nmp command
 sh -c "npm publish --registry $local_registry $1"
