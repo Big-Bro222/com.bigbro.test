@@ -15,8 +15,5 @@ local_registry="http://34.88.239.191:4873/"
 # login so we can publish packages
 # sh -c "cd Packages/com.BigBro.URPPackageTemplate"
 sh -c "npm login --registry $local_registry"
-sh -c "qi"
-sh -c "2445734397"
-sh -c "Ze.Qi@outlook.com"
 # Run nmp command
 sh -c "npm publish --registry $local_registry $1"
