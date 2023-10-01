@@ -1,0 +1,32 @@
+{
+    "name": "com.companyname.unity.packagename",
+    "version": "0.0.2",
+    "displayName": "Package Example",
+    "description": "Enter some description and unity version is the lowest Unity version",
+    "unity":"2018.3",
+    "documentationUrl": "README.md",
+    "changelogUrl": "https://keepachangelog.com/en/1.0.0/",
+    "dependencies": {
+        "com.unity.textmeshpro":"3.0.6",
+        "com.bigbro.unity.thirdpersoncontroller":"0.1.0"
+    },
+    "samples":[{
+        "displayName":"Image sample",
+        "description":"Put some images here",
+        "path":"Samples~/ImageSample"
+    },
+    {
+        "displayName":"Scenes sample",
+        "description":"Put an Example scene here",
+        "path":"Samples~/SceneSample"
+    }
+    ],
+    "keywords": [
+        "3D",
+        "Example"
+    ],
+    "author": {
+        "name": "BigBro",
+        "email": "Ze.Qi@outlook.com"
+    }
+}
