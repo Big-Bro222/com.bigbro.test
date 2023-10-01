@@ -9,7 +9,8 @@ LABEL "repository"="https://github.com/Big-Bro222/UnityPackageExample"
 LABEL "homepage"="https://big-bro222.github.io/"
 LABEL "maintainer"="ZeQi <ze.qi@outlook.com>"
 
-RUN npm install -g verdaccio && \
+RUN npm install -g npm@6
+    npm install -g verdaccio && \
 	npm install -g verdaccio-auth-memory && \
 	npm install -g verdaccio-memory && \
 	npm install -g npm-auth-to-token@1.0.0
